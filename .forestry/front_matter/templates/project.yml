@@ -35,6 +35,16 @@ fields:
   config:
     color_format: Hex
   label: Foreground color
+- name: related_journals
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: journal
+  label: related_journals
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
